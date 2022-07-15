@@ -13,7 +13,6 @@ with station_status_raw as (
         num_docks_available,
         is_returning,
         is_installed,
-        num_bikes_available,
         legacy_id,
         num_bikes_disabled    
     from citibike_trip_data.public.station_status
