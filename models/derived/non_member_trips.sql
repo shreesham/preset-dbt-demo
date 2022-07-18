@@ -1,4 +1,4 @@
 {{ config(materialized='table') }}
 
-select * from {{ ref('citibike_trips')}} where member_casual = 'casual';
+select * from {{ ref('citibike_trips')}} where member_casual = 'casual'
   
