@@ -1,0 +1,33 @@
+slice_name: Total Rides Grouped By Start/End Stations (Top 1000)
+viz_type: table
+params:
+  adhoc_filters: []
+  all_columns:
+  - TOTAL_FROM
+  - START_STATION_NAME
+  - END_STATION_NAME
+  color_pn: true
+  conditional_formatting: []
+  datasource: 31__table
+  extra_form_data: {}
+  granularity_sqla: null
+  groupby: []
+  include_search: true
+  metrics: []
+  order_by_cols:
+  - '["TOTAL_FROM", false]'
+  order_desc: true
+  percent_metrics: []
+  query_mode: raw
+  row_limit: 1000
+  server_page_length: 10
+  show_cell_bars: true
+  slice_id: 113
+  table_timestamp_format: smart_date
+  time_grain_sqla: P1D
+  time_range: No filter
+  viz_type: table
+cache_timeout: null
+uuid: b0622829-fe03-4c92-901a-25558861fb12
+version: 1.0.0
+dataset_uuid: dd757dfb-287e-4ae9-945b-ad4cf24b3d29

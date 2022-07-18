@@ -1,0 +1,467 @@
+dashboard_title: Citi Bike Rides
+description: null
+css: ''
+slug: null
+uuid: d871b4ff-baf8-4d0b-80c8-48b6c23c93b4
+position:
+  CHART-2vz-O3rF9y:
+    children: []
+    id: CHART-2vz-O3rF9y
+    meta:
+      chartId: 101
+      height: 70
+      sliceName: Daily Rides of Members and Casuals
+      uuid: bc2fb9b6-ff5a-423d-8619-0b46135219fe
+      width: 8
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    - ROW-v5vR5LtubY
+    type: CHART
+  CHART-3qqZ-XIlzN:
+    children: []
+    id: CHART-3qqZ-XIlzN
+    meta:
+      chartId: 92
+      height: 60
+      sliceName: Citi Bike Rides
+      uuid: ad472d33-bb5b-4bb4-bfbc-f895e2a4d319
+      width: 6
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    - ROW-5Jz8aQvVz
+    type: CHART
+  CHART-8rs5XJGsYH:
+    children: []
+    id: CHART-8rs5XJGsYH
+    meta:
+      chartId: 96
+      height: 21
+      sliceName: Total Citi Bike Member Rides
+      uuid: 4d72c0d9-6065-40f5-a5d4-ad7627822751
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    - ROW-5Jz8aQvVz
+    - COLUMN-4JxA7DAanJ
+    type: CHART
+  CHART-_eq7l6MTtK:
+    children: []
+    id: CHART-_eq7l6MTtK
+    meta:
+      chartId: 93
+      height: 34
+      sliceName: Citi Bike Member Rides
+      uuid: 2f3a559c-cb7d-451e-8b08-a844186e8073
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    - ROW-v5vR5LtubY
+    - COLUMN-vZl6Y9FKZL
+    type: CHART
+  CHART-iBsQkSR-QU:
+    children: []
+    id: CHART-iBsQkSR-QU
+    meta:
+      chartId: 97
+      height: 20
+      sliceName: Total Citi Bike Casual Rides
+      uuid: 9fa29596-b988-4e03-ac57-3b7888602b03
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    - ROW-5Jz8aQvVz
+    - COLUMN-4JxA7DAanJ
+    type: CHART
+  CHART-k85vKWLr6o:
+    children: []
+    id: CHART-k85vKWLr6o
+    meta:
+      chartId: 106
+      height: 177
+      sliceName: Ride Path From Top 500 Stations Where Bike Ends at a New Location
+      uuid: 5599d156-3489-42fb-8822-dff7248383de
+      width: 6
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-6Vj2TVqr5
+    - ROW-FI9b-Mvyt
+    type: CHART
+  CHART-qK7FmXd1f_:
+    children: []
+    id: CHART-qK7FmXd1f_
+    meta:
+      chartId: 112
+      height: 37
+      sliceName: Total Rides Grouped By Different Start/End Stations (Top 500)
+      uuid: 1a7ddc65-0903-4c31-81b6-8189650533ac
+      width: 6
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-6Vj2TVqr5
+    - ROW-FI9b-Mvyt
+    - COLUMN-bCXvXX0Lkc
+    type: CHART
+  CHART-qlmmd2lirb:
+    children: []
+    id: CHART-qlmmd2lirb
+    meta:
+      chartId: 113
+      height: 37
+      sliceName: Total Rides Grouped By Start/End Stations (Top 1000)
+      uuid: b0622829-fe03-4c92-901a-25558861fb12
+      width: 2
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-6Vj2TVqr5
+    - ROW-FI9b-Mvyt
+    - COLUMN-bCXvXX0Lkc
+    type: CHART
+  CHART-qrsO4ru1dK:
+    children: []
+    id: CHART-qrsO4ru1dK
+    meta:
+      chartId: 98
+      height: 60
+      sliceName: Rider Type Pie
+      uuid: f69e18a8-cfd6-4655-ae60-b11d2adf8cba
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    - ROW-5Jz8aQvVz
+    type: CHART
+  CHART-tTmuVZ5tzJ:
+    children: []
+    id: CHART-tTmuVZ5tzJ
+    meta:
+      chartId: 94
+      height: 34
+      sliceName: Citi Bike Casual Rides
+      uuid: 08b91527-774c-4a26-91c8-cfe7a8a2aeab
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    - ROW-v5vR5LtubY
+    - COLUMN-vZl6Y9FKZL
+    type: CHART
+  CHART-tgEvc7-eg3:
+    children: []
+    id: CHART-tgEvc7-eg3
+    meta:
+      chartId: 114
+      height: 45
+      sliceName: Total Rides From Top 15 Start Stations (Members)
+      uuid: a4509f10-b0e5-47c9-846e-d4eb02ee24a7
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-6Vj2TVqr5
+    - ROW-FI9b-Mvyt
+    - COLUMN-bCXvXX0Lkc
+    type: CHART
+  CHART-vnW4wRw_9V:
+    children: []
+    id: CHART-vnW4wRw_9V
+    meta:
+      chartId: 115
+      height: 51
+      sliceName: Total Rides From Top 15 Start Stations (Casuals)
+      uuid: ac12f87e-3cb1-4789-b17a-495975590c22
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-6Vj2TVqr5
+    - ROW-FI9b-Mvyt
+    - COLUMN-bCXvXX0Lkc
+    type: CHART
+  COLUMN-4JxA7DAanJ:
+    children:
+    - MARKDOWN-XOEekENPY6
+    - CHART-8rs5XJGsYH
+    - CHART-iBsQkSR-QU
+    id: COLUMN-4JxA7DAanJ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    - ROW-5Jz8aQvVz
+    type: COLUMN
+  COLUMN-bCXvXX0Lkc:
+    children:
+    - CHART-qK7FmXd1f_
+    - CHART-qlmmd2lirb
+    - CHART-tgEvc7-eg3
+    - CHART-vnW4wRw_9V
+    id: COLUMN-bCXvXX0Lkc
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      width: 6
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-6Vj2TVqr5
+    - ROW-FI9b-Mvyt
+    type: COLUMN
+  COLUMN-tCwKQ9iyuG:
+    children: []
+    id: COLUMN-tCwKQ9iyuG
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      width: 6
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    - ROW-6z8Bv77cD
+    type: COLUMN
+  COLUMN-vZl6Y9FKZL:
+    children:
+    - CHART-_eq7l6MTtK
+    - CHART-tTmuVZ5tzJ
+    id: COLUMN-vZl6Y9FKZL
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    - ROW-v5vR5LtubY
+    type: COLUMN
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children: []
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Citi Bike Rides
+    type: HEADER
+  MARKDOWN-XOEekENPY6:
+    children: []
+    id: MARKDOWN-XOEekENPY6
+    meta:
+      code: '<iframe src="https://iconape.com/wp-content/files/ao/315818/png/citi-bike-logo.png"
+
+        class="iframe" scrolling="no"></iframe>'
+      height: 15
+      width: 2
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    - ROW-5Jz8aQvVz
+    - COLUMN-4JxA7DAanJ
+    type: MARKDOWN
+  ROOT_ID:
+    children:
+    - TABS-1OiXrsVsuz
+    id: ROOT_ID
+    type: ROOT
+  ROW-5Jz8aQvVz:
+    children:
+    - COLUMN-4JxA7DAanJ
+    - CHART-qrsO4ru1dK
+    - CHART-3qqZ-XIlzN
+    id: ROW-5Jz8aQvVz
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    type: ROW
+  ROW-6z8Bv77cD:
+    children:
+    - COLUMN-tCwKQ9iyuG
+    id: ROW-6z8Bv77cD
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    type: ROW
+  ROW-FI9b-Mvyt:
+    children:
+    - CHART-k85vKWLr6o
+    - COLUMN-bCXvXX0Lkc
+    id: ROW-FI9b-Mvyt
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-6Vj2TVqr5
+    type: ROW
+  ROW-v5vR5LtubY:
+    children:
+    - COLUMN-vZl6Y9FKZL
+    - CHART-2vz-O3rF9y
+    id: ROW-v5vR5LtubY
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    - TAB-3UtNWN9TkT
+    type: ROW
+  TAB-3UtNWN9TkT:
+    children:
+    - ROW-5Jz8aQvVz
+    - ROW-v5vR5LtubY
+    - ROW-6z8Bv77cD
+    id: TAB-3UtNWN9TkT
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Summary
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    type: TAB
+  TAB-6Vj2TVqr5:
+    children:
+    - ROW-FI9b-Mvyt
+    id: TAB-6Vj2TVqr5
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Station Statistics
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    type: TAB
+  TAB-Abr3c3j5B:
+    children: []
+    id: TAB-Abr3c3j5B
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Current Station Stats
+    parents:
+    - ROOT_ID
+    - TABS-1OiXrsVsuz
+    type: TAB
+  TABS-1OiXrsVsuz:
+    children:
+    - TAB-3UtNWN9TkT
+    - TAB-6Vj2TVqr5
+    - TAB-Abr3c3j5B
+    id: TABS-1OiXrsVsuz
+    meta: {}
+    parents:
+    - ROOT_ID
+    type: TABS
+metadata:
+  show_native_filters: true
+  chart_configuration:
+    '92':
+      id: 92
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 92
+    '98':
+      id: 98
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 98
+    '101':
+      id: 101
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 101
+    '112':
+      id: 112
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 112
+    '113':
+      id: 113
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 113
+  color_scheme: ''
+  refresh_frequency: 0
+  shared_label_colors: {}
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  default_filters: '{}'
+  native_filter_configuration:
+  - id: NATIVE_FILTER-9ntIfxUCJ
+    controlValues:
+      enableEmptyFilter: false
+    name: Month Filter
+    filterType: filter_time
+    targets:
+    - {}
+    defaultDataMask:
+      extraFormData:
+        time_range: 'DATEADD(DATETIME("2022-05-01T00:00:00"), -30, day) : 2022-05-01T00:00:00'
+      filterState:
+        value: 'DATEADD(DATETIME("2022-05-01T00:00:00"), -30, day) : 2022-05-01T00:00:00'
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-3UtNWN9TkT
+      excluded:
+      - 92
+      - 96
+      - 93
+      - 97
+      - 98
+      - 94
+    type: NATIVE_FILTER
+    description: Use this filter to compare the number of rides per day of members
+      and non-members to see when members vs non-members tend to prefer using Citi
+      Bikes
+    chartsInScope:
+    - 93
+    - 94
+    - 101
+    tabsInScope:
+    - TAB-3UtNWN9TkT
+version: 1.0.0

@@ -1,0 +1,45 @@
+slice_name: Total Citi Bike Member Rides
+viz_type: big_number_total
+params:
+  adhoc_filters: []
+  datasource: 55__table
+  extra_form_data: {}
+  granularity_sqla: started_at
+  header_font_size: 0.4
+  metric:
+    aggregate: COUNT_DISTINCT
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: ride_id
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 1092
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: VARCHAR(16777216)
+      type_generic: 1
+      verbose_name: null
+      warning_markdown: null
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: COUNT_DISTINCT(ride_id)
+    optionName: metric_son2qrn1k2s_awsz323klpi
+    sqlExpression: null
+  slice_id: 96
+  subheader: Member Rides
+  subheader_font_size: 0.15
+  time_format: smart_date
+  time_grain_sqla: P1D
+  time_range: No filter
+  viz_type: big_number_total
+  y_axis_format: SMART_NUMBER
+cache_timeout: null
+uuid: 4d72c0d9-6065-40f5-a5d4-ad7627822751
+version: 1.0.0
+dataset_uuid: d6097586-d5d2-488a-8934-84e1c11e1984
