@@ -1,4 +1,4 @@
 {{ config(materialized='table') }}
     
 select * 
-from CITIBIKE_TRIP_DATA.PUBLIC.CITIBIKE_TRIPS
+from citibike_trip_data.public.citibike_trips
