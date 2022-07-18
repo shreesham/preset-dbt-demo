@@ -1,0 +1,55 @@
+slice_name: Ride Path From Top 500 Stations Where Bike Ends at a New Location
+viz_type: deck_arc
+params:
+  adhoc_filters: []
+  autozoom: true
+  color_picker:
+    a: 1
+    b: 135
+    g: 122
+    r: 0
+  color_scheme: supersetColors
+  datasource: 29__table
+  dimension: START_STATION_NAME
+  end_spatial:
+    latCol: END_LAT
+    lonCol: END_LNG
+    type: latlong
+  extra_form_data: {}
+  filter_nulls: true
+  granularity_sqla: null
+  js_columns: []
+  legend_format: ~g
+  legend_position: tr
+  mapbox_style: mapbox://styles/mapbox/dark-v9
+  row_limit: 500
+  slice_id: 106
+  start_spatial:
+    latCol: START_LAT
+    lonCol: START_LNG
+    type: latlong
+  stroke_width: 5
+  target_color_picker:
+    a: 1
+    b: 135
+    g: 8
+    r: 0
+  time_range: No filter
+  viewport:
+    altitude: 1.5
+    bearing: 0
+    height: 653
+    latitude: 40.73512505598226
+    longitude: -73.97314332399883
+    maxPitch: 60
+    maxZoom: 20
+    minPitch: 0
+    minZoom: 0
+    pitch: 0
+    width: 1333
+    zoom: 10.939836175021718
+  viz_type: deck_arc
+cache_timeout: null
+uuid: 5599d156-3489-42fb-8822-dff7248383de
+version: 1.0.0
+dataset_uuid: 3755dc74-6734-4b9e-9b55-5e2088e7b9be

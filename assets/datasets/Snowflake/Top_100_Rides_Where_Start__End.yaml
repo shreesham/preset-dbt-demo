@@ -1,0 +1,121 @@
+table_name: Top 100 Rides Where Start != End
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+schema: public
+sql: "SELECT \n  COUNT (ride_id) as total_from, \n  start_station_name, \n  end_station_name,\n\
+  \  start_lat,\n  start_lng,\n  end_lat,\n  end_lng\nFROM citibike_trips \nwhere\
+  \ (start_station_name != end_station_name) \ngroup BY start_station_name, end_station_name,\
+  \ start_lat, start_lng, end_lat, end_lng\norder by total_from DESC \nlimit 500\n"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+uuid: 3755dc74-6734-4b9e-9b55-5e2088e7b9be
+metrics:
+- metric_name: count
+  verbose_name: null
+  metric_type: null
+  expression: count(*)
+  description: null
+  d3format: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+columns:
+- column_name: TOTAL_FROM
+  verbose_name: Total Rides Between Stations
+  is_dttm: false
+  is_active: null
+  type: INT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: Number of rides between stations
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: START_LNG
+  verbose_name: 'Start Longitude '
+  is_dttm: false
+  is_active: null
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: Longitude of starting station location
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: START_STATION_NAME
+  verbose_name: Start Station Name
+  is_dttm: false
+  is_active: null
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: Name of starting station
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: START_LAT
+  verbose_name: 'Start Latitude '
+  is_dttm: false
+  is_active: null
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: END_STATION_NAME
+  verbose_name: End Station Name
+  is_dttm: false
+  is_active: null
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: END_LAT
+  verbose_name: 'End Latitude '
+  is_dttm: false
+  is_active: null
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: END_LNG
+  verbose_name: 'End Longitude '
+  is_dttm: false
+  is_active: null
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+version: 1.0.0
+database_uuid: c3123f57-cd78-4632-b2c5-d33ca9bca6e1

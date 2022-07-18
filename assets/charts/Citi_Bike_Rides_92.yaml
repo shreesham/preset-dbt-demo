@@ -1,0 +1,33 @@
+slice_name: Citi Bike Rides
+viz_type: table
+params:
+  adhoc_filters: []
+  all_columns:
+  - ride_id
+  - start_station_name
+  - end_station_name
+  - started_at
+  - ended_at
+  color_pn: true
+  conditional_formatting: []
+  datasource: 53__table
+  extra_form_data: {}
+  granularity_sqla: started_at
+  groupby: []
+  order_by_cols:
+  - '["started_at", false]'
+  order_desc: true
+  percent_metrics: []
+  query_mode: raw
+  row_limit: 10000
+  server_page_length: 10
+  show_cell_bars: true
+  slice_id: 92
+  table_timestamp_format: smart_date
+  time_grain_sqla: null
+  time_range: No filter
+  viz_type: table
+cache_timeout: null
+uuid: ad472d33-bb5b-4bb4-bfbc-f895e2a4d319
+version: 1.0.0
+dataset_uuid: dbf36441-d40e-4c35-9fbd-5db6385daa32

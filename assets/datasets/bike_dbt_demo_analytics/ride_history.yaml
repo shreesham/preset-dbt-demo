@@ -1,0 +1,81 @@
+table_name: ride_history
+main_dttm_col: started_at
+description: ''
+default_endpoint: null
+offset: 0
+cache_timeout: null
+schema: dbt_smukherjee
+sql: null
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra:
+  resource_type: model
+  unique_id: model.bike_dbt_demo.ride_history
+  depends_on: ref('ride_history')
+uuid: dbf36441-d40e-4c35-9fbd-5db6385daa32
+metrics: []
+columns:
+- column_name: start_station_name
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: VARCHAR(16777216)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: end_station_name
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: VARCHAR(16777216)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: ride_id
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: VARCHAR(16777216)
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: started_at
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: TIMESTAMP_NTZ
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: ended_at
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: TIMESTAMP_NTZ
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: eb0d0021-9faf-43b6-a1ea-063956d74f0b

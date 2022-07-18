@@ -1,0 +1,68 @@
+table_name: Overall Top 500 Grouped By Start/End
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+schema: public
+sql: "SELECT \n  COUNT (ride_id) as total_from, \n  start_station_name, \n  end_station_name\n\
+  FROM citibike_trips \ngroup BY start_station_name, end_station_name \norder by total_from\
+  \ DESC \n"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+uuid: dd757dfb-287e-4ae9-945b-ad4cf24b3d29
+metrics:
+- metric_name: count
+  verbose_name: null
+  metric_type: null
+  expression: count(*)
+  description: null
+  d3format: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+columns:
+- column_name: TOTAL_FROM
+  verbose_name: Total Rides Between Stations
+  is_dttm: false
+  is_active: null
+  type: INT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: Number of rides between two stations
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: START_STATION_NAME
+  verbose_name: Start Station Name
+  is_dttm: false
+  is_active: null
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: END_STATION_NAME
+  verbose_name: End Station Name
+  is_dttm: false
+  is_active: null
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+version: 1.0.0
+database_uuid: c3123f57-cd78-4632-b2c5-d33ca9bca6e1
