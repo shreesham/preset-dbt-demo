@@ -1,7 +1,7 @@
 {{ config(materialized='table') }}
     
 select
-	ride_id,
+    ride_id,
     start_station_name,
     end_station_name,
     started_at,
